@@ -22,6 +22,7 @@ local defaults = {
     before_source = nil, -- function to run before the session is sourced via telescope
     after_source = nil, -- function to run after the session is sourced via telescope
   },
+  refresh_reset_prompt = true, -- reset prompt when refresh results
 }
 
 ---@type PersistedOptions
